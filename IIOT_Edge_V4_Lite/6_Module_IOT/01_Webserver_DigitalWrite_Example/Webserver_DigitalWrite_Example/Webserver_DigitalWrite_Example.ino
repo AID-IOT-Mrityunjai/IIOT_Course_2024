@@ -18,15 +18,13 @@
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_Sensor.h>
 #include <Arduino.h>
-#include <IIOT_V4_Pinout.h>
-#include <Wire.h>
-#include <Arduino.h>
 #include <ESPmDNS.h>
+#include <IIOT_V4_Pinout.h>
 #include <WebServer.h>
 #include <WiFi.h>
 #include <WiFiClient.h>
-#include <Ws2812b_led.h>
 #include <Wire.h>
+#include <Ws2812b_led.h>
 
 const char* ssid = WIFI_SSID;
 const char* password = WIFI_PASS;
@@ -100,7 +98,16 @@ void setup(void) {
     Serial.println("HTTP server started");
 }
 
+long _millis = 0;
 void loop(void) {
     server.handleClient();
     delay(2);  // allow the cpu to switch to other tasks
+
+    if (millis() - _millis > 4000) {
+        if (WiFi.status() == WL_CONNECTED) {
+            Serial.print("IP address: ");
+            Serial.println(WiFi.localIP());
+        }
+        _millis=millis();
+    }
 }
