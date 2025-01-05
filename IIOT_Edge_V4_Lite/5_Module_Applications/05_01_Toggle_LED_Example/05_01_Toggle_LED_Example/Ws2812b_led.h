@@ -8,7 +8,7 @@ xQueueHandle queueHandleIdWsLed;
 
 // extern CRGB leds[NUM_LEDS];
 #define STATUS_LED (leds[0])
-#define NETWORK_LED (leds[0])
+#define NETWORK_LED (leds[1])
 class ws2812b_led {
    private:
     /* data */
@@ -32,7 +32,7 @@ void wsledTask(void* pvParameters) {
     CRGB leds[NUM_LEDS];
     FastLED.addLeds<WS2812B, PIN_LED_WS2812_DATA, GRB>(leds, NUM_LEDS);  // GRB ordering is typical
     FastLED.setBrightness(10);
-    STATUS_LED = CRGB::Red;
+    STATUS_LED = CRGB::Green;
     FastLED.show();
     static CRGB ledColor;
     TaskHandle_t taskHandle = xTaskGetCurrentTaskHandle();
@@ -53,9 +53,7 @@ void wsledTask(void* pvParameters) {
     }
 }
 
-// #define xxa 38
-// #define xxa 38
-// const uint8_t  xxa=38;
+
 void ws2812b_led::init() {
     //    const uint8_t _p = _pinNumber;
     queueHandleIdWsLed = xQueueCreate(1, sizeof(CRGB));
@@ -67,8 +65,7 @@ void ws2812b_led::init() {
         1,            // Priority
         NULL          // Task handle is not used here - simply pass NULL
     );
-    //  FastLED.addLeds<WS2812B, xxa, GRB>(leds, NUM_LEDS);
-    //   FastLED.setBrightness(10);
+
     //   STATUS_LED = CRGB::Red;   // App not started
     //   NETWORK_LED = CRGB::Red;  // Network not connected
 }
