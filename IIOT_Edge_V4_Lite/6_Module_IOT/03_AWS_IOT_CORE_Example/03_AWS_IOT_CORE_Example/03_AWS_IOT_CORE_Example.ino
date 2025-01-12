@@ -59,8 +59,8 @@ class AWS {
     void publishMessage();
 };
 
-String _topic_location;
-String _topic_message = "topics/test2025";
+String _topic_publish="topics/test2025/upload";
+String _topic_sub = "topics/test2025";
 String _unique_id;
 String _base_topic;
 WiFiClientSecure net = WiFiClientSecure();
@@ -105,9 +105,10 @@ void AWS::connectAWS() {
     }
 
     // Subscribe to a topic
-    client.subscribe(_topic_message);
+    client.subscribe(_topic_sub);
 
     Serial.println("AWS IoT Connected!");
+    publishMessage();
 }
 
 void AWS::publishMessage() {
@@ -117,7 +118,7 @@ void AWS::publishMessage() {
     char jsonBuffer[512];
     serializeJson(doc, jsonBuffer);  // print to client
 
-    client.publish(_topic_location, jsonBuffer);
+    client.publish(_topic_publish, jsonBuffer);
 }
 
 void messageHandler(String &topic, String &payload) {
