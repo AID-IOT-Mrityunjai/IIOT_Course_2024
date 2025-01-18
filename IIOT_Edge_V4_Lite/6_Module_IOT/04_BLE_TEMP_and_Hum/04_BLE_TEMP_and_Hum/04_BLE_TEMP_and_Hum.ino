@@ -293,7 +293,7 @@ void loop() {
       // Fahrenheit
       tempF = 1.8*temp +32;
       // Read humidity
-      hum = bmp.readPressure(); // Actually sending Pressure 
+      hum = bmp.readTemperature(); // Actually sending Pressure 
   
       //Notify temperature reading from BMP sensor
       #ifdef temperatureCelsius
