@@ -1,0 +1,22 @@
+20:36:50.937 > ESP-ROM:esp32s3-20210327
+20:36:50.942 > Build:Mar 27 2021
+20:36:50.942 > rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+20:36:50.947 > SPIWP:0xee
+20:36:50.947 > mode:DIO, clock div:1
+20:36:50.950 > load:0x3fce3808,len:0x4bc
+20:36:50.953 > load:0x403c9700,len:0xbd8
+20:36:50.953 > load:0x403cc700,len:0x2a0c
+20:36:50.956 > entry 0x403c98d0
+20:36:51.145 > [0;37m[   115][V][esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(44) txPin(43)[0m
+20:36:51.145 > [0;37m[   125][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation[0m
+20:36:51.145 > [0;37m[   134][V][esp32-hal-uart.c:467] uartBegin(): UART0 initialization done.[0m
+20:36:52.087 > [0;37m[  1152][V][esp32-hal-uart.c:330] uartBegin(): UART1 baud(115200) Mode(800001c) rxPin(18) txPin(17)[0m
+20:36:52.096 > [0;37m[  1162][V][esp32-hal-uart.c:416] uartBegin(): UART1 not installed. Starting installation[0m
+20:36:52.105 > [0;37m[  1171][V][esp32-hal-uart.c:467] uartBegin(): UART1 initialization done.[0m
+20:36:52.113 > [0;37m[  1178][V][07_SIM_HTTP.ino:72] setup(): Initializing modem...[0m
+20:36:52.120 > AT
+20:36:52.122 > AT
+20:36:52.122 > OK
+20:36:52.122 > AT+CRESET
+20:36:52.127 > AT+CRESET
+20:36:52.127 > O
