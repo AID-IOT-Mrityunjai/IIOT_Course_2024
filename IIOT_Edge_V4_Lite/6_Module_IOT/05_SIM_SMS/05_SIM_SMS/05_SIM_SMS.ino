@@ -6,13 +6,13 @@
 
 #define SerialSim Serial1
 #define TINY_GSM_MODEM_A7672X
+#define TEST_SIM 1
 void setup() {
     // BUTTON
     Serial.begin(115200);
     pinMode(PIN_BUTTON_ON_BOARD, INPUT);
     pinMode(PIN_BUZZER, OUTPUT);
 
-  
     pinMode(PIN_GSM_PWR_KEY, OUTPUT);
     digitalWrite(PIN_GSM_PWR_KEY, LOW);
     delay(1000);
@@ -24,7 +24,7 @@ void setup() {
         PIN_SIM_TX,
         PIN_SIM_RX,
         false);
-
+#if defined(TEST_SIM) && TEST_SIM == 1
     for (int _x = 0; _x < 10; _x++) {
         SerialSim.write("AT\r\n");
         if (SerialSim.available()) {
@@ -41,11 +41,14 @@ void setup() {
         }
         log_w("sim...");
     }
+#endif  // TEST_SIM
 }
 
 void loop() {
+#if defined(TEST_SIM) && TEST_SIM == 1
     if (SerialSim.available())
         Serial.write(SerialSim.read());
     if (Serial.available())
         SerialSim.write(Serial.read());
+#endif
 }
