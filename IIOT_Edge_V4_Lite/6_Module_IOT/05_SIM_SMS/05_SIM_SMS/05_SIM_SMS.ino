@@ -66,6 +66,7 @@ void setup() {
     log_w("Modem Info: %s", String(modemInfo));
     String imei = modem.getIMEI();
     modem.sendSMS("+9187", String("Hello from ") + imei);
+
 #endif  // TEST_SIM
 }
 
