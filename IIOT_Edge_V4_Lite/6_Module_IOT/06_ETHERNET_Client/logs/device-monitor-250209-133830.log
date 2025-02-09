@@ -1,0 +1,26 @@
+13:38:30.829 > ESP-ROM:esp32s3-20210327
+13:38:30.833 > Build:Mar 27 2021
+13:38:30.833 > rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+13:38:30.839 > SPIWP:0xee
+13:38:30.839 > mode:DIO, clock div:1
+13:38:30.842 > load:0x3fce3808,len:0x4bc
+13:38:30.844 > load:0x403c9700,len:0xbd8
+13:38:30.844 > load:0x403cc700,len:0x2a0c
+13:38:30.847 > entry 0x403c98d0
+13:38:31.026 > [0;37m[   198][V][WiFiGeneric.cpp:439] _arduino_event_cb(): Ethernet Started[0m
+13:38:31.032 > [0;36m[   206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 18 - ETH_START[0m
+13:38:33.026 > [0;37m[  2199][V][WiFiGeneric.cpp:432] _arduino_event_cb(): Ethernet Link Up[0m
+13:38:33.033 > [0;36m[  2206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 20 - ETH_CONNECTED[0m
+13:38:33.194 > [0;37m[  2366][V][WiFiGeneric.cpp:447] _arduino_event_cb(): Ethernet got newip:192.168.0.102[0m
+13:38:33.203 > [0;36m[  2375][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 22 - ETH_GOT_IP[0m
+13:38:33.210 > [0;36m[  2383][D][WiFiGeneric.cpp:1139] _eventCallback(): ETH IP: 192.168.0.102, MASK: 255.255.255.0, GW: 192.168.0.1[0m
+13:38:33.276 > [0;37m[  2448][V][06_ETHERNET_Client.ino:166] init(): connecting to server[0m
+13:38:33.282 > [0;33m[  2455][W][06_ETHERNET_Client.ino:206] setup(): 192.168.0.102[0m
+13:38:40.828 > [0;37m[ 10001][V][06_ETHERNET_Client.ino:94] httpRequest(): [0m
+13:38:41.012 > [0;37m[ 10184][V][06_ETHERNET_Client.ino:199] thread(): Making a request[0m
+13:38:51.012 > [0;37m[ 20185][V][06_ETHERNET_Client.ino:94] httpRequest(): [0m
+13:38:51.195 > [0;37m[ 20367][V][06_ETHERNET_Client.ino:199] thread(): Making a request[0m
+13:39:01.196 > [0;37m[ 30368][V][06_ETHERNET_Client.ino:94] httpRequest(): [0m
+13:39:01.372 > [0;37m[ 30544][V][06_ETHERNET_Client.ino:199] thread(): Making a request[0m
+13:39:11.374 > [0;37m[ 40545][V][06_ETHERNET_Client.ino:94] httpRequest(): [0m
+13:39:11.554 > [0;37m[ 40725][V][06_ETHERNET_Client.ino:199] thread(): Making a request[0m

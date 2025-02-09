@@ -1,0 +1,28 @@
+13:59:16.603 > ESP-ROM:esp32s3-20210327
+13:59:16.608 > Build:Mar 27 2021
+13:59:16.608 > rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+13:59:16.614 > SPIWP:0xee
+13:59:16.614 > mode:DIO, clock div:1
+13:59:16.616 > load:0x3fce3808,len:0x4bc
+13:59:16.619 > load:0x403c9700,len:0xbd8
+13:59:16.619 > load:0x403cc700,len:0x2a0c
+13:59:16.623 > entry 0x403c98d0
+13:59:16.791 > [0;37m[   188][V][esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(44) txPin(43)[0m
+13:59:16.799 > [0;37m[   198][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation[0m
+13:59:16.808 > [0;37m[   208][V][esp32-hal-uart.c:467] uartBegin(): UART0 initialization done.[0m
+13:59:17.317 > 
+13:59:17.317 > Start WebClientRepeating on Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM) with ESP32_S3_W5500
+13:59:17.325 > WebServer_ESP32_SC_W5500 v1.2.1 for core v2.0.0+
+13:59:17.328 > [EWS] Default SPI pinout:
+13:59:17.331 > [EWS] SPI_HOST: 2
+13:59:17.334 > [EWS] MOSI: 11
+13:59:17.334 > [EWS] MISO: 13
+13:59:17.337 > [EWS] SCK: 12
+13:59:17.337 > [EWS] CS: 10
+13:59:17.340 > [EWS] INT: 4
+13:59:17.340 > [EWS] SPI Clock (MHz): 25
+13:59:17.342 > [EWS] =========================
+13:59:17.352 > [0;37m[   749][V][WiFiGeneric.cpp:439] _arduino_event_cb(): Ethernet Started[0m
+13:59:17.358 > [0;36m[   757][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 18 - ETH_START[0m
+13:59:17.367 > 
+13:59:17.367 > ETH Started

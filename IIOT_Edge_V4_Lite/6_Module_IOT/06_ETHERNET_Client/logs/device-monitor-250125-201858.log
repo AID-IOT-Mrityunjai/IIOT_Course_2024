@@ -1,0 +1,62 @@
+20:18:58.359 > ESP-ROM:esp32s3-20210327
+20:18:58.364 > Build:Mar 27 2021
+20:18:58.364 > rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+20:18:58.369 > SPIWP:0xee
+20:18:58.369 > mode:DIO, clock div:1
+20:18:58.372 > load:0x3fce3808,len:0x4bc
+20:18:58.375 > load:0x403c9700,len:0xbd8
+20:18:58.375 > load:0x403cc700,len:0x2a0c
+20:18:58.378 > entry 0x403c98d0
+20:18:58.557 > [0;37m[   198][V][WiFiGeneric.cpp:439] _arduino_event_cb(): Ethernet Started[0m
+20:18:58.562 > [0;36m[   206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 18 - ETH_START[0m
+20:19:00.557 > [0;37m[  2199][V][WiFiGeneric.cpp:432] _arduino_event_cb(): Ethernet Link Up[0m
+20:19:00.563 > [0;36m[  2206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 20 - ETH_CONNECTED[0m
+20:19:04.227 > [0;37m[  5869][V][WiFiGeneric.cpp:447] _arduino_event_cb(): Ethernet got newip:192.168.0.102[0m
+20:19:04.236 > [0;36m[  5877][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 22 - ETH_GOT_IP[0m
+20:19:04.244 > [0;36m[  5886][D][WiFiGeneric.cpp:1139] _eventCallback(): ETH IP: 192.168.0.102, MASK: 255.255.255.0, GW: 192.168.0.1[0m
+20:19:04.306 > [0;37m[  5948][V][06_ETHERNET_Client.ino:137] init(): connecting to server[0m
+20:19:04.622 > [0;33m[  6264][W][06_ETHERNET_Client.ino:172] setup(): 192.168.0.102[0m
+20:19:04.628 > [0;37m[  6270][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.633 > [0;37m[  6277][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.642 > [0;37m[  6284][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.647 > [0;37m[  6291][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.652 > [0;37m[  6297][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.662 > [0;37m[  6304][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.667 > [0;37m[  6311][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.672 > [0;37m[  6317][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.681 > [0;37m[  6324][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.687 > [0;37m[  6331][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.696 > [0;37m[  6337][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.701 > [0;37m[  6344][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.706 > [0;37m[  6351][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.715 > [0;37m[  6357][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.720 > [0;37m[  6364][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.726 > [0;37m[  6371][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.734 > [0;37m[  6378][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.740 > [0;37m[  6384][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.749 > [0;37m[  6391][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.755 > [0;37m[  6398][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.761 > [0;37m[  6404][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.769 > [0;37m[  6411][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.775 > [0;37m[  6418][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.780 > [0;37m[  6425][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.789 > [0;37m[  6431][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.794 > [0;37m[  6438][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.802 > [0;37m[  6445][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.808 > [0;37m[  6451][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.814 > [0;37m[  6458][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.822 > [0;37m[  6465][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.828 > [0;37m[  6471][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.833 > [0;37m[  6478][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.841 > [0;37m[  6485][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.848 > [0;37m[  6491][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.856 > [0;37m[  6498][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.861 > [0;37m[  6505][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.868 > [0;37m[  6511][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.876 > [0;37m[  6518][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.882 > [0;37m[  6525][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.887 > [0;37m[  6532][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.895 > [0;37m[  6538][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.901 > [0;37m[  6545][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.910 > [0;37m[  6552][V][06_ETHERNET_Client.ino:81] printoutData(): Printing[0m
+20:19:04.923 > [0;36m[  6565][D][WiFiClient.cpp:536] connected(): Disconnected: RES: 0, ERR: 128[0m

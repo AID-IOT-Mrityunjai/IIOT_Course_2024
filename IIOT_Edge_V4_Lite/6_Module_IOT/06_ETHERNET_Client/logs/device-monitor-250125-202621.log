@@ -1,0 +1,28 @@
+20:26:21.144 > ESP-ROM:esp32s3-20210327
+20:26:21.149 > Build:Mar 27 2021
+20:26:21.149 > rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+20:26:21.155 > SPIWP:0xee
+20:26:21.155 > mode:DIO, clock div:1
+20:26:21.157 > load:0x3fce3808,len:0x4bc
+20:26:21.160 > load:0x403c9700,len:0xbd8
+20:26:21.160 > load:0x403cc700,len:0x2a0c
+20:26:21.163 > entry 0x403c98d0
+20:26:21.341 > [0;37m[   198][V][WiFiGeneric.cpp:439] _arduino_event_cb(): Ethernet Started[0m
+20:26:21.347 > [0;36m[   206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 18 - ETH_START[0m
+20:26:23.342 > [0;37m[  2199][V][WiFiGeneric.cpp:432] _arduino_event_cb(): Ethernet Link Up[0m
+20:26:23.348 > [0;36m[  2206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 20 - ETH_CONNECTED[0m
+20:26:23.364 > [0;37m[  2221][V][WiFiGeneric.cpp:447] _arduino_event_cb(): Ethernet got newip:192.168.0.102[0m
+20:26:23.373 > [0;36m[  2230][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 22 - ETH_GOT_IP[0m
+20:26:23.381 > [0;36m[  2238][D][WiFiGeneric.cpp:1139] _eventCallback(): ETH IP: 192.168.0.102, MASK: 255.255.255.0, GW: 192.168.0.1[0m
+20:26:23.390 > [0;37m[  2249][V][06_ETHERNET_Client.ino:166] init(): connecting to server[0m
+20:26:23.397 > [0;33m[  2256][W][06_ETHERNET_Client.ino:206] setup(): 192.168.0.102[0m
+20:26:31.144 > [0;37m[ 10001][V][06_ETHERNET_Client.ino:94] httpRequest(): [0m
+20:26:31.424 > [0;37m[ 10282][V][06_ETHERNET_Client.ino:199] thread(): Making a request[0m
+20:26:41.426 > [0;37m[ 20283][V][06_ETHERNET_Client.ino:94] httpRequest(): [0m
+20:26:41.693 > [0;37m[ 20549][V][06_ETHERNET_Client.ino:199] thread(): Making a request[0m
+20:26:51.694 > [0;37m[ 30550][V][06_ETHERNET_Client.ino:94] httpRequest(): [0m
+20:26:51.972 > [0;37m[ 30828][V][06_ETHERNET_Client.ino:199] thread(): Making a request[0m
+20:27:01.973 > [0;37m[ 40829][V][06_ETHERNET_Client.ino:94] httpRequest(): [0m
+20:27:02.239 > [0;37m[ 41094][V][06_ETHERNET_Client.ino:199] thread(): Making a request[0m
+20:27:12.239 > [0;37m[ 51095][V][06_ETHERNET_Client.ino:94] httpRequest(): [0m
+20:27:12.525 > [0;37m[ 51380][V][06_ETHERNET_Client.ino:199] thread(): Making a request[0m

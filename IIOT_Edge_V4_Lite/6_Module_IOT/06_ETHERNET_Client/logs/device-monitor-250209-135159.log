@@ -1,0 +1,18 @@
+13:51:59.449 > ESP-ROM:esp32s3-20210327
+13:51:59.453 > Build:Mar 27 2021
+13:51:59.453 > rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+13:51:59.459 > SPIWP:0xee
+13:51:59.459 > mode:DIO, clock div:1
+13:51:59.462 > load:0x3fce3808,len:0x4bc
+13:51:59.464 > load:0x403c9700,len:0xbd8
+13:51:59.464 > load:0x403cc700,len:0x2a0c
+13:51:59.467 > entry 0x403c98d0
+13:51:59.646 > [0;37m[   198][V][WiFiGeneric.cpp:439] _arduino_event_cb(): Ethernet Started[0m
+13:51:59.652 > [0;36m[   206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 18 - ETH_START[0m
+13:52:01.646 > [0;37m[  2199][V][WiFiGeneric.cpp:432] _arduino_event_cb(): Ethernet Link Up[0m
+13:52:01.652 > [0;36m[  2206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 20 - ETH_CONNECTED[0m
+13:52:02.788 > [0;37m[  3341][V][WiFiGeneric.cpp:447] _arduino_event_cb(): Ethernet got newip:192.168.0.102[0m
+13:52:02.798 > [0;36m[  3350][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 22 - ETH_GOT_IP[0m
+13:52:02.806 > [0;36m[  3358][D][WiFiGeneric.cpp:1139] _eventCallback(): ETH IP: 192.168.0.102, MASK: 255.255.255.0, GW: 192.168.0.1[0m
+13:52:02.895 > [0;37m[  3448][V][06_ETHERNET_Client.ino:167] init(): connecting to server[0m
+13:52:05.903 > [0;33m[  6455][W][06_ETHERNET_Client.ino:217] setup(): 192.168.0.102[0m

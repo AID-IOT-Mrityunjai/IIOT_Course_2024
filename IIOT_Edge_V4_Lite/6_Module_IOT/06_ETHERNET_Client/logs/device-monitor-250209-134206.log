@@ -1,0 +1,58 @@
+13:42:06.410 > ESP-ROM:esp32s3-20210327
+13:42:06.415 > Build:Mar 27 2021
+13:42:06.415 > rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+13:42:06.420 > SPIWP:0xee
+13:42:06.420 > mode:DIO, clock div:1
+13:42:06.423 > load:0x3fce3808,len:0x4bc
+13:42:06.426 > load:0x403c9700,len:0xbd8
+13:42:06.426 > load:0x403cc700,len:0x2a0c
+13:42:06.429 > entry 0x403c98d0
+13:42:06.607 > [0;37m[   198][V][WiFiGeneric.cpp:439] _arduino_event_cb(): Ethernet Started[0m
+13:42:06.613 > [0;36m[   206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 18 - ETH_START[0m
+13:42:08.608 > [0;37m[  2199][V][WiFiGeneric.cpp:432] _arduino_event_cb(): Ethernet Link Up[0m
+13:42:08.613 > [0;36m[  2206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 20 - ETH_CONNECTED[0m
+13:42:08.752 > [0;37m[  2343][V][WiFiGeneric.cpp:447] _arduino_event_cb(): Ethernet got newip:192.168.0.102[0m
+13:42:08.760 > [0;36m[  2352][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 22 - ETH_GOT_IP[0m
+13:42:08.768 > [0;36m[  2360][D][WiFiGeneric.cpp:1139] _eventCallback(): ETH IP: 192.168.0.102, MASK: 255.255.255.0, GW: 192.168.0.1[0m
+13:42:08.856 > [0;37m[  2448][V][06_ETHERNET_Client.ino:167] init(): connecting to server[0m
+13:42:08.863 > [0;33m[  2455][W][06_ETHERNET_Client.ino:207] setup(): 192.168.0.102[0m
+13:42:16.409 > [0;37m[ 10001][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:42:16.608 > [0;37m[ 10199][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:42:26.609 > [0;37m[ 20200][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:42:26.790 > [0;37m[ 20380][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:42:36.790 > [0;37m[ 30381][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:42:36.967 > [0;37m[ 30558][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:42:46.968 > [0;37m[ 40559][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:42:47.147 > [0;37m[ 40737][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:42:57.148 > [0;37m[ 50738][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:42:57.329 > [0;37m[ 50919][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:43:07.330 > [0;37m[ 60920][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:43:07.506 > [0;37m[ 61097][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:43:17.509 > [0;37m[ 71098][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:43:17.703 > [0;37m[ 71292][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:43:27.704 > [0;37m[ 81293][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:43:27.880 > [0;37m[ 81469][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:43:37.881 > [0;37m[ 91470][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:43:38.060 > [0;37m[ 91649][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:43:48.061 > [0;37m[101650][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:43:48.233 > [0;37m[101822][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:43:58.234 > [0;37m[111823][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:43:58.413 > [0;37m[112001][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:44:08.414 > [0;37m[122002][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:44:08.593 > [0;37m[122180][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:44:18.593 > [0;37m[132181][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:44:18.773 > [0;37m[132361][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:44:28.775 > [0;37m[142362][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:44:28.954 > [0;37m[142541][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:44:38.955 > [0;37m[152542][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:44:39.130 > [0;37m[152717][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:44:49.130 > [0;37m[162718][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:44:49.307 > [0;37m[162895][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:44:59.309 > [0;37m[172896][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:44:59.492 > [0;37m[173079][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:45:09.493 > [0;37m[183080][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:45:09.671 > [0;37m[183257][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:45:19.671 > [0;37m[193258][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:45:19.848 > [0;37m[193435][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m
+13:45:29.850 > [0;37m[203436][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:45:30.037 > [0;37m[203622][V][06_ETHERNET_Client.ino:200] thread(): Request Ended !![0m

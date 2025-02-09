@@ -1,0 +1,28 @@
+13:40:43.978 > ESP-ROM:esp32s3-20210327
+13:40:43.983 > Build:Mar 27 2021
+13:40:43.983 > rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+13:40:43.989 > SPIWP:0xee
+13:40:43.989 > mode:DIO, clock div:1
+13:40:43.991 > load:0x3fce3808,len:0x4bc
+13:40:43.993 > load:0x403c9700,len:0xbd8
+13:40:43.993 > load:0x403cc700,len:0x2a0c
+13:40:43.997 > entry 0x403c98d0
+13:40:44.176 > [0;37m[   198][V][WiFiGeneric.cpp:439] _arduino_event_cb(): Ethernet Started[0m
+13:40:44.182 > [0;36m[   206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 18 - ETH_START[0m
+13:40:46.176 > [0;37m[  2199][V][WiFiGeneric.cpp:432] _arduino_event_cb(): Ethernet Link Up[0m
+13:40:46.182 > [0;36m[  2206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 20 - ETH_CONNECTED[0m
+13:40:46.317 > [0;37m[  2341][V][WiFiGeneric.cpp:447] _arduino_event_cb(): Ethernet got newip:192.168.0.102[0m
+13:40:46.326 > [0;36m[  2349][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 22 - ETH_GOT_IP[0m
+13:40:46.335 > [0;36m[  2358][D][WiFiGeneric.cpp:1139] _eventCallback(): ETH IP: 192.168.0.102, MASK: 255.255.255.0, GW: 192.168.0.1[0m
+13:40:46.425 > [0;37m[  2448][V][06_ETHERNET_Client.ino:166] init(): connecting to server[0m
+13:40:46.430 > [0;33m[  2455][W][06_ETHERNET_Client.ino:206] setup(): 192.168.0.102[0m
+13:40:53.978 > [0;37m[ 10001][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:40:54.172 > [0;37m[ 10194][V][06_ETHERNET_Client.ino:199] thread(): Request Ended !![0m
+13:41:04.172 > [0;37m[ 20195][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:41:04.352 > [0;37m[ 20375][V][06_ETHERNET_Client.ino:199] thread(): Request Ended !![0m
+13:41:14.353 > [0;37m[ 30376][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:41:14.528 > [0;37m[ 30550][V][06_ETHERNET_Client.ino:199] thread(): Request Ended !![0m
+13:41:24.529 > [0;37m[ 40551][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:41:24.707 > [0;37m[ 40729][V][06_ETHERNET_Client.ino:199] thread(): Request Ended !![0m
+13:41:34.708 > [0;37m[ 50730][V][06_ETHERNET_Client.ino:94] httpRequest(): starting with request...[0m
+13:41:34.887 > [0;37m[ 50909][V][06_ETHERNET_Client.ino:199] thread(): Request Ended !![0m
